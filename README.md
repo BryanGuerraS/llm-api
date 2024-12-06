@@ -1,11 +1,11 @@
 # 🚀 LLM API con FastAPI y Docker 🌟
-¡Bienvenido al proyecto LLM API! 🎉 Este repositorio contiene una implementación de una API que utiliza FastAPI para procesar preguntas, buscar documentos relevantes y generar respuestas utilizando un modelo de lenguaje grande (LLM). La aplicación se integra con Cohere para la generación de embeddings y ChromaDB para la búsqueda de similitudes.
+¡Bienvenido al proyecto LLM API! 🎉 Este repositorio contiene una implementación de una API que utiliza FastAPI para procesar preguntas, buscar texto relevante y generar respuestas utilizando un modelo de lenguaje grande (LLM). La aplicación se integra con Cohere para la generación de embeddings y ChromaDB para la búsqueda de similitudes.
 
 
 ## 🌟 Características principales
-🔍 Procesa documentos .docx, dividiéndolos en fragmentos (chunks) y almacenando sus embeddings.
-🤖 Genera respuestas concisas y relevantes a preguntas del usuario.
-🗄️ Utiliza ChromaDB para buscar documentos similares.
+🔍 Procesa documentos .docx, dividiéndolos en fragmentos (chunks) y almacenando sus embeddings.  
+🤖 Genera respuestas concisas y relevantes a preguntas del usuario.  
+🗄️ Utiliza ChromaDB para buscar documentos similares.  
 📦 Se puede ejecutar en un contenedor Docker para facilitar su despliegue
 
 
