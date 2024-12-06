@@ -27,7 +27,7 @@ requirements.txt            # Librerías necesarias para el proyecto.
 ## 🚀 Cómo ejecutar el proyecto
 ### 1️⃣ Requisitos previos
 - 🐍 Python 3.9+  
-- 🐳 Docker instalado. Instrucciones aquí.  
+- 🐳 Docker instalado.  
 - 🧪 Postman o cualquier cliente HTTP para probar la API.
 
 ### 2️⃣ Ejecución local
