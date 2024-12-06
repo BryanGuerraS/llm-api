@@ -10,6 +10,7 @@
 
 
 ## 📂 Estructura del proyecto
+```console
 📁 app  
 ├── document_processing.py  # Procesa documentos y los divide en chunks.  
 ├── embeddings.py           # Genera embeddings utilizando Cohere.  
@@ -21,12 +22,13 @@
 Dockerfile                  # Configuración para construir la imagen Docker.  
 main.py                     # Archivo principal de la API.  
 requirements.txt            # Librerías necesarias para el proyecto.
+```
 
 ## 🚀 Cómo ejecutar el proyecto
 ### 1️⃣ Requisitos previos
-🐍 Python 3.9+  
-🐳 Docker instalado. Instrucciones aquí.  
-🧪 Postman o cualquier cliente HTTP para probar la API.
+- 🐍 Python 3.9+  
+- 🐳 Docker instalado. Instrucciones aquí.  
+- 🧪 Postman o cualquier cliente HTTP para probar la API.
 
 ### 2️⃣ Ejecución local
 1. Clona el repositorio:
