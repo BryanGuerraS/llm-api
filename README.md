@@ -3,29 +3,29 @@
 
 
 ## 🌟 Características principales
-🔍 Procesa documentos .docx, dividiéndolos en fragmentos (chunks) y almacenando sus embeddings.  
-🤖 Genera respuestas concisas y relevantes a preguntas del usuario.  
-🗄️ Utiliza ChromaDB para buscar documentos similares.  
-📦 Se puede ejecutar en un contenedor Docker para facilitar su despliegue
+- 🔍 Procesa documentos .docx, dividiéndolos en fragmentos (chunks) y almacenando sus embeddings.  
+- 🤖 Genera respuestas concisas y relevantes a preguntas del usuario.  
+- 🗄️ Utiliza ChromaDB para buscar documentos similares.  
+- 📦 Se puede ejecutar en un contenedor Docker para facilitar su despliegue
 
 
 ## 📂 Estructura del proyecto
-📁 app
-├── document_processing.py  # Procesa documentos y los divide en chunks.
-├── embeddings.py           # Genera embeddings utilizando Cohere.
-├── storage.py              # Almacena chunks y embeddings en ChromaDB.
-├── search.py               # Busca documentos relevantes en ChromaDB.
-├── generate_answer.py      # Genera respuestas basadas en documentos relevantes.
-📁 postman                  # Contiene la colección de Postman para probar la API.
-├── LLM_API.postman_collection.json  # Colección de Postman exportada.
-Dockerfile                  # Configuración para construir la imagen Docker.
-main.py                     # Archivo principal de la API.
+📁 app  
+├── document_processing.py  # Procesa documentos y los divide en chunks.  
+├── embeddings.py           # Genera embeddings utilizando Cohere.  
+├── storage.py              # Almacena chunks y embeddings en ChromaDB.  
+├── search.py               # Busca documentos relevantes en ChromaDB.  
+├── generate_answer.py      # Genera respuestas basadas en documentos relevantes.  
+📁 postman                  # Contiene la colección de Postman para probar la API.  
+├── LLM_API.postman_collection.json  # Colección de Postman exportada.  
+Dockerfile                  # Configuración para construir la imagen Docker.  
+main.py                     # Archivo principal de la API.  
 requirements.txt            # Librerías necesarias para el proyecto.
 
 ## 🚀 Cómo ejecutar el proyecto
 ### 1️⃣ Requisitos previos
-🐍 Python 3.9+
-🐳 Docker instalado. Instrucciones aquí.
+🐍 Python 3.9+  
+🐳 Docker instalado. Instrucciones aquí.  
 🧪 Postman o cualquier cliente HTTP para probar la API.
 
 ### 2️⃣ Ejecución local
@@ -72,12 +72,13 @@ Request Body:
 }
 ```
 Respuesta:
+```console
 {
     "user_name": "Bryan_Guerra",
     "question": "Quien es Zara?",
     "answer": "Zara es un intrépido explorador en la galaxia de Zenthoria, que descubre un antiguo artefacto clave para la paz entre los Dracorians y los Lumis. 🌌️🛡️🛸"
 }
-
+```
 
 ## 📦 Postman Collection
 Se incluye una colección de Postman en la carpeta postman/ con el archivo LLM_API.postman_collection.json.
@@ -85,7 +86,7 @@ Se incluye una colección de Postman en la carpeta postman/ con el archivo LLM_A
 Cómo usarla:
 1. Abre Postman y selecciona Importar.
 2. Carga el archivo postman/LLM_API.postman_collection.json desde tu proyecto.
-3.¡Prueba los endpoints fácilmente! 🎉
+3. ¡Prueba los endpoints fácilmente! 🎉
 
 ## 📖 Documentación adicional
 - Docker: Este proyecto incluye un archivo Dockerfile que permite desplegar la API rápidamente en un contenedor.
